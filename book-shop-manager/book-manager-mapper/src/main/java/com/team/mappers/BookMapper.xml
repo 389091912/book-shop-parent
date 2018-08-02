@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.team.mappers.BookMapper">
+  <resultMap id="BaseResultMap" type="com.team.pojo.Book">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="bookname" jdbcType="VARCHAR" property="bookname" />
+    <result column="author" jdbcType="VARCHAR" property="author" />
+    <result column="publishdate" jdbcType="DATE" property="publishdate" />
+    <result column="groupprice" jdbcType="DOUBLE" property="groupprice" />
+    <result column="price" jdbcType="DOUBLE" property="price" />
+    <result column="format" jdbcType="VARCHAR" property="format" />
+    <result column="pagenumber" jdbcType="VARCHAR" property="pagenumber" />
+    <result column="ISBN" jdbcType="VARCHAR" property="isbn" />
+    <result column="barcode" jdbcType="VARCHAR" property="barcode" />
+    <result column="layout" jdbcType="INTEGER" property="layout" />
+    <result column="printingnumber" jdbcType="INTEGER" property="printingnumber" />
+    <result column="register" jdbcType="VARCHAR" property="register" />
+    <result column="weight" jdbcType="VARCHAR" property="weight" />
+    <result column="typeid" jdbcType="INTEGER" property="typeid" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
+    <result column="pressid" jdbcType="INTEGER" property="pressid" />
+    <result column="number" jdbcType="INTEGER" property="number" />
+    <result column="imgurl" jdbcType="VARCHAR" property="imgurl" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+    <result column="recommend" jdbcType="INTEGER" property="recommend" />
+    <result column="bookintroduce" jdbcType="LONGVARCHAR" property="bookintroduce" />
+    <result column="authorintroduce" jdbcType="LONGVARCHAR" property="authorintroduce" />
+    <result column="catalog" jdbcType="LONGVARCHAR" property="catalog" />
+  </resultMap>
+</mapper>

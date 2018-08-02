@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.team.mappers.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.team.pojo.Order">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="no" jdbcType="VARCHAR" property="no" />
+    <result column="alipayno" jdbcType="VARCHAR" property="alipayno" />
+    <result column="userid" jdbcType="INTEGER" property="userid" />
+    <result column="addressid" jdbcType="INTEGER" property="addressid" />
+    <result column="info" jdbcType="VARCHAR" property="info" />
+    <result column="price" jdbcType="REAL" property="price" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+  </resultMap>
+</mapper>

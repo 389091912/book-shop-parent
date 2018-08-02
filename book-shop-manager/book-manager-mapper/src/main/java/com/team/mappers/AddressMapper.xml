@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.team.mappers.AddressMapper">
+  <resultMap id="BaseResultMap" type="com.team.pojo.Address">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="provincetext" jdbcType="VARCHAR" property="provincetext" />
+    <result column="citytext" jdbcType="VARCHAR" property="citytext" />
+    <result column="regiontext" jdbcType="VARCHAR" property="regiontext" />
+    <result column="address" jdbcType="VARCHAR" property="address" />
+    <result column="userid" jdbcType="INTEGER" property="userid" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+  </resultMap>
+</mapper>

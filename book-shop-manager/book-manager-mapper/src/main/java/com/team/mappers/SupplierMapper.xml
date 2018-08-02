@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.team.mappers.SupplierMapper">
+  <resultMap id="BaseResultMap" type="com.team.pojo.Supplier">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="flag" jdbcType="INTEGER" property="flag" />
+    <result column="linkman" jdbcType="VARCHAR" property="linkman" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="createtime" jdbcType="DATE" property="createtime" />
+    <result column="info" jdbcType="LONGVARCHAR" property="info" />
+  </resultMap>
+</mapper>
